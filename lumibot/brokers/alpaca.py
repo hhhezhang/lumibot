@@ -325,6 +325,7 @@ class Alpaca(Broker):
         strategy : Strategy | None
             The calling strategy; forwarded so pending orders can be processed
             the same way BacktestingBroker does.
+        Test the change
         """
         # Seconds until the bell rings
         time_to_close = self.get_time_to_close()
